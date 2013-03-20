@@ -1,5 +1,5 @@
-Demonstration of Rails issue 9813
-=================================
+Demonstration of [Rails issue 9813][issue-9813]
+===============================================
 
 Using this project, run `rake db:migrate`, then observe this behavior at the Rails console:
 
@@ -13,3 +13,4 @@ Using this project, run `rake db:migrate`, then observe this behavior at the Rai
 
 In the last command, the `for_special_users` scope wipes out the `has_many` relationship.
 
+[issue-9813]: https://github.com/rails/rails/issues/9813
